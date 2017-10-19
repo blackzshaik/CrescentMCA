@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blackz.crescentmca2017_2019.MainActivity">
+
+
+    <ImageButton
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/btn"
+    android:background="@drawable/round"
+    android:layout_margin="15dp"
+    android:src="@drawable/today"
+        android:onClick="today" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Today"
+        android:layout_below="@+id/btn"
+        android:id="@+id/text"
+        android:layout_marginLeft="70dp" />
+
+    <ImageButton
+        android:layout_toRightOf="@+id/btn"
+        android:background="@drawable/round"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/btn2"
+        android:src="@drawable/all"
+        android:layout_margin="15dp"
+        android:onClick="allT" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Full Time Table"
+        android:layout_below="@+id/btn"
+        android:layout_marginLeft="80dp"
+        android:layout_toRightOf="@+id/text"
+        android:id="@+id/text2"/>
+
+    <ImageButton
+        android:layout_below="@+id/text2"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Full Time Table"
+        android:id="@+id/btn4"
+        android:background="@drawable/round"
+        android:src="@drawable/settings"
+        android:onClick="settings"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="News And Other Details"
+        android:layout_below="@+id/btn4"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/text4"/>
+
+
+    <ImageButton
+        android:layout_below="@+id/text2"
+        android:layout_toRightOf="@+id/btn4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Full Time Table"
+        android:id="@+id/btn5"
+        android:background="@drawable/round"
+        android:src="@drawable/about_unknown"
+        android:layout_margin="15dp"
+        android:onClick="about"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="About"
+        android:layout_toRightOf="@+id/text4"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/btn4"
+        android:id="@+id/text5"/>
+
+</RelativeLayout>

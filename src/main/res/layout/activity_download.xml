@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.blackz.crescentmca2017_2019.Download">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Subject News"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:id="@+id/top"/>
+    <View
+        android:layout_height="5dp"
+        android:layout_width="match_parent"
+        android:background="#000"
+        android:id="@+id/dividerr"
+        android:layout_below="@+id/top"/>
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_below="@id/dividerr">
+
+    <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+>
+
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="General Information"
+         android:textSize="35sp"
+         android:id="@+id/gen"
+         android:onClick="gen"
+         android:clickable="true"/>
+     <View
+         android:layout_height="1dp"
+         android:layout_width="match_parent"
+         android:background="#000"/>
+     <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="Loading..."
+         android:id="@+id/genSm"
+         android:textSize="20sp"
+         android:paddingBottom="10dp"/>
+
+
+     <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="OOAD"
+    android:textSize="35sp"
+    android:id="@+id/big1"
+    android:onClick="big1"
+    android:clickable="true"/>
+     <View
+         android:layout_height="1dp"
+         android:layout_width="match_parent"
+         android:background="#000"/>
+     <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="Loading..."
+         android:id="@+id/small1"
+         android:textSize="20sp"
+         android:paddingBottom="10dp"/>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="JAVA"
+         android:textSize="35sp"
+         android:id="@+id/big2"
+         android:onClick="big2"
+         android:clickable="true"/>
+     <View
+         android:layout_height="1dp"
+         android:layout_width="match_parent"
+         android:background="#000"/>
+     <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="Loading..."
+         android:textSize="20sp"
+         android:id="@+id/small2"
+         android:paddingBottom="10dp"/>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="TCP Ip"
+         android:textSize="35sp"
+         android:id="@+id/big3"
+         android:onClick="big3"
+         android:clickable="true"/>
+     <View
+         android:layout_height="1dp"
+         android:layout_width="match_parent"
+         android:background="#000"/>
+     <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="Loading..."
+         android:textSize="20sp"
+         android:id="@+id/small3"
+         android:paddingBottom="10dp"/>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Network Security"
+         android:textSize="35sp"
+         android:id="@+id/big4"
+         android:onClick="big4"
+         android:clickable="true"/>
+     <View
+         android:layout_height="1dp"
+         android:layout_width="match_parent"
+         android:background="#000"/>
+     <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="Loading..."
+         android:textSize="20sp"
+         android:id="@+id/small4"
+         android:paddingBottom="10dp"/>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Cloud Computing"
+         android:textSize="35sp"
+         android:id="@+id/big5"
+         android:onClick="big5"
+         android:clickable="true"/>
+     <View
+         android:layout_height="1dp"
+         android:layout_width="match_parent"
+         android:background="#000"/>
+     <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="Loading..."
+         android:textSize="20sp"
+         android:id="@+id/small5"
+         android:paddingBottom="10dp"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Maths"
+          android:textSize="35sp"
+          android:id="@+id/big6"
+          android:onClick="big6"
+          android:clickable="true"/>
+     <View
+         android:layout_height="1dp"
+         android:layout_width="match_parent"
+         android:background="#000"/>
+      <TextView
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:text="Loading..."
+          android:textSize="20sp"
+          android:id="@+id/small6"
+          android:paddingBottom="10dp"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="OOAD LAB"
+          android:textSize="35sp"
+          android:id="@+id/big7"
+          android:onClick="big7"
+          android:clickable="true"/>
+     <View
+         android:layout_height="1dp"
+         android:layout_width="match_parent"
+         android:background="#000"/>
+      <TextView
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:text="Loading..."
+          android:textSize="20sp"
+          android:id="@+id/small7"
+          android:paddingBottom="10dp"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="JAVA LAB"
+          android:textSize="35sp"
+          android:id="@+id/big8"
+          android:onClick="big8"
+          android:clickable="true"
+          />
+     <View
+         android:layout_height="1dp"
+         android:layout_width="match_parent"
+         android:background="#000"/>
+      <TextView
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:text="Loading..."
+          android:textSize="20sp"
+          android:id="@+id/small8"
+          android:paddingBottom="10dp"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Programming Lab"
+          android:textSize="35sp"
+          android:id="@+id/big9"
+          android:onClick="big9"
+          android:clickable="true"/>
+     <View
+         android:layout_height="1dp"
+         android:layout_width="match_parent"
+         android:background="#000"/>
+      <TextView
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:text="Loading..."
+          android:textSize="20sp"
+          android:id="@+id/small9"
+          android:paddingBottom="10dp"/>
+
+     </LinearLayout>
+ </ScrollView>
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mSnackbar"
+        android:layout_alignParentBottom="true">
+
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

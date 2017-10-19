@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.blackz.crescentmca2017_2019.StartScreen">
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="Welcome II MCA A"
+    android:textSize="40dp"
+android:textStyle="bold" />
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/mca"
+        android:background="@drawable/round"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Enter Your Details"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter RRN's Last Two Digits Only"
+        android:id="@+id/rrn"
+        android:inputType="number"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter Your Name Here"
+        android:id="@+id/lol"
+        android:inputType="textPersonName"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let me in"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="loGin"
+        android:background="@color/colorAccent"
+        android:drawableEnd="@drawable/in"
+        android:drawableRight="@drawable/in"/>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mSnackbar">
+
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

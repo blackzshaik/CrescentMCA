@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">II MCA A 2017-2019</string>
+
+    <string-array name="tt">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="mon">
+        <item>1.Internet Java Programming</item>
+        <item>2.Network Security</item>
+        <item>3.TCP / IP Proctocol Suite</item>
+        <item>4.Cloud Computing</item>
+        <item>5. 3 Hours Lab</item>
+        <item>6.JAVA Lab Batch 1</item>
+        <item>7.OOAD Lab Batch 2</item>
+    </string-array>
+
+    <string-array name="tue">
+        <item>1.TCP / IP Protocol Suite</item>
+        <item>2.OOAD</item>
+        <item>3.Cloud Computing</item>
+        <item>4.Network Security</item>
+        <item>5.Intenet and Java Programming</item>
+        <item>6.Maths</item>
+        <item>7.PBL</item>
+    </string-array>
+
+    <string-array name="wed">
+        <item>1.Maths</item>
+        <item>2.Cloud Computing</item>
+        <item>3.Network Security</item>
+        <item>4.OOAD</item>
+        <item>5. 3 hours Lab</item>
+        <item>6.OOAD Lab Batch 1</item>
+        <item>7.Java Lab Batch 2</item>
+    </string-array>
+
+    <string-array name="thu">
+        <item>1.Maths</item>
+        <item>2.Internet and Java Programming</item>
+        <item>3.TCP / IP Protocol Suite</item>
+        <item>4.Network Security</item>
+        <item>5.PBL</item>
+        <item>6.Internet and Java Programming</item>
+        <item>7.OOAD</item>
+    </string-array>
+
+    <string-array name="fri">
+        <item>1.OOAD</item>
+        <item>2.TCP /Ip Protocol Suite</item>
+        <item>3.Cloud Computing</item>
+        <item>4.Maths</item>
+        <item>5.Prayer</item>
+        <item>6.Lab Programming Language</item>
+        <item>7.Lab Programming Language</item>
+    </string-array>
+
+    <string-array name="hol">
+        <item>Holiday</item>
+        <item>Pangu</item>
+        <item>Have</item>
+        <item>Funuu...</item>
+        <item>.</item>
+        <item>.</item>
+        <item>Monday Pakalam</item>
+    </string-array>
+
+    <string name="aboutme">Hey there,this is me Jahaber Shaik Allavudeen<b>(aka:Blackz Shaik)</b>,I created this application </string>
+
+    <string name="aboutme2">For time table and to get the news updates from our faculties like assignment and any other information will be frequently updated by our representatives,Hussain And Deepika</string>
+<string name="aboutapp"><b>Technical Details</b>
+    \nv2.0 &#8212;This application was developed using Android Studio,
+    \nLanguages Used:
+    \n&#8212;Java
+    \n&#8212;XML (for designs only)
+    \nBackend
+    \n&#8212;Firebase
+    \n&#8212;SharedPreference
+    \nFor any doubt or if you found any bug please inform that to class representatives
+</string>
+    <string name="thank">Thank you for installing this application i thought that this could be useful to us
+    \nAnd please take two minutes to give your suggestion and comments about this application
+    \nAlso how much rating will you give to this application ?</string>
+    <string name="contact">
+        <b>Contact Me</b>\n
+        Throw your valuable comments through
+    </string>
+    <string name="contribution">
+        <b>Contribution</b>
+        \nSome of you are really intrested in developing android application
+        \nIf you want to contribute or learn get it from the github link below,
+        \nAlso im withdrawn from this project till the end of this semester&#8230;
+        \nAll The Best Guys..
+    </string>
+    <string-array name="sub">
+        <item>Select a subject</item>
+        <item>GeneralInfo</item>
+        <item>OOAD</item>
+    <item>TCPIP</item>
+    <item>NS</item>
+    <item>CC</item>
+    <item>IJP</item>
+    <item>RMT</item>
+    <item>JL</item>
+    <item>OL</item>
+    <item>CL</item>
+    </string-array>
+</resources>

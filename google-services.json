@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "209614319121",
+    "firebase_url": "https://unknownhackz-43687.firebaseio.com",
+    "project_id": "unknownhackz-43687",
+    "storage_bucket": "unknownhackz-43687.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209614319121:android:4ea80a072fde705a",
+        "android_client_info": {
+          "package_name": "com.blackz.crescentmca2017_2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209614319121-gg997f2dv6i2s19ilurcb16im1e3da3p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blackz.crescentmca2017_2019",
+            "certificate_hash": "779d154a1fa89f0a1e03b350ab5ea0e36c73aeb6"
+          }
+        },
+        {
+          "client_id": "209614319121-gvmm6mk48fupokeefujpg1smn3n62ce5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwbhWzR0Bc3EHD1wumii6-aGxtDKi_QYE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209614319121-gvmm6mk48fupokeefujpg1smn3n62ce5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

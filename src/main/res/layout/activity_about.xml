@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blackz.crescentmca2017_2019.About">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/img"
+        android:src="@drawable/blackz"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/img"
+        android:text="@string/aboutme"
+        android:textSize="25dp" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/aboutme2"
+        android:textSize="25dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/aboutapp"
+        android:textSize="20dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/thank"
+        android:textSize="20dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/contact"
+        android:textSize="20dp" />
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facebook:"
+            android:textSize="20dp"
+            android:id="@+id/ff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ff"
+            android:id="@+id/fb"
+            android:text="Blackz Shaik"
+            android:textSize="20dp"
+            android:textColor="#122bd7"
+            android:onClick="fb"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visit my blog"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/wa"
+            android:id="@+id/blog"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Website:"
+            android:textSize="20dp"
+            android:id="@+id/we"
+            android:layout_below="@+id/blog"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/blog"
+            android:layout_toRightOf="@id/we"
+            android:id="@+id/web"
+            android:text="Unknown Hackz"
+            android:textSize="20dp"
+            android:textColor="#122bd7"
+            android:onClick="uh"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Whatsapp :"
+            android:textSize="20dp"
+            android:id="@+id/wa"
+            android:layout_below="@+id/ff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check MCA A Group"
+            android:textSize="20dp"
+            android:layout_below="@+id/fb"
+            android:layout_toRightOf="@+id/wa"
+            android:id="@+id/wat"
+            android:textColor="#122bd7"
+            android:onClick="wa"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/contribution"
+        android:textSize="20dp" />
+</LinearLayout>
+</ScrollView>
