@@ -36,7 +36,7 @@ public class StartScreen extends Activity {
         String s = editText.getText().toString();
         String na = editText2.getText().toString();
 
-        if(s.equals("") || name.equals("")) {
+        if(s.equals("") || na.equals("")) {
             Snackbar.make(vw,"Please Check Your Details",Snackbar.LENGTH_SHORT).setAction(null,null).show();
         }
         else{
@@ -65,7 +65,7 @@ public class StartScreen extends Activity {
             }
         }catch (NumberFormatException nfe)
         {
-            Snackbar.make(vw,"Please Enter Your Details",Snackbar.LENGTH_SHORT).setAction(null,null).show();
+           // Snackbar.make(vw,"Please Enter Your Details",Snackbar.LENGTH_SHORT).setAction(null,null).show();
         }
     }
 
